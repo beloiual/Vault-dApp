@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/vault-dapp/static/js/main.c4ef9b6c.chunk.js",
-    "main.js.map": "/vault-dapp/static/js/main.c4ef9b6c.chunk.js.map",
-    "runtime-main.js": "/vault-dapp/static/js/runtime-main.6e76a654.js",
-    "runtime-main.js.map": "/vault-dapp/static/js/runtime-main.6e76a654.js.map",
-    "static/js/2.7c483554.chunk.js": "/vault-dapp/static/js/2.7c483554.chunk.js",
-    "static/js/2.7c483554.chunk.js.map": "/vault-dapp/static/js/2.7c483554.chunk.js.map",
-    "index.html": "/vault-dapp/index.html",
-    "precache-manifest.8c0369061c451e7078526fa63116f87b.js": "/vault-dapp/precache-manifest.8c0369061c451e7078526fa63116f87b.js",
-    "service-worker.js": "/vault-dapp/service-worker.js",
-    "static/js/2.7c483554.chunk.js.LICENSE.txt": "/vault-dapp/static/js/2.7c483554.chunk.js.LICENSE.txt"
+    "main.js": "/Vault-dApp/static/js/main.2dbf3a2b.chunk.js",
+    "main.js.map": "/Vault-dApp/static/js/main.2dbf3a2b.chunk.js.map",
+    "runtime-main.js": "/Vault-dApp/static/js/runtime-main.353f1012.js",
+    "runtime-main.js.map": "/Vault-dApp/static/js/runtime-main.353f1012.js.map",
+    "static/js/2.289adc3c.chunk.js": "/Vault-dApp/static/js/2.289adc3c.chunk.js",
+    "static/js/2.289adc3c.chunk.js.map": "/Vault-dApp/static/js/2.289adc3c.chunk.js.map",
+    "index.html": "/Vault-dApp/index.html",
+    "precache-manifest.b17198230e82f107e053a6bb63177781.js": "/Vault-dApp/precache-manifest.b17198230e82f107e053a6bb63177781.js",
+    "service-worker.js": "/Vault-dApp/service-worker.js",
+    "static/js/2.289adc3c.chunk.js.LICENSE.txt": "/Vault-dApp/static/js/2.289adc3c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6e76a654.js",
-    "static/js/2.7c483554.chunk.js",
-    "static/js/main.c4ef9b6c.chunk.js"
+    "static/js/runtime-main.353f1012.js",
+    "static/js/2.289adc3c.chunk.js",
+    "static/js/main.2dbf3a2b.chunk.js"
   ]
 }

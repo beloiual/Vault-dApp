@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 export default class Footer extends React.Component {
     render() {
+        return (<div></div>)
         return (
               
   <div className="footer-area" style={{boxShadow: '0 0 6px 0 rgba(0,0,0,.2)'}}>

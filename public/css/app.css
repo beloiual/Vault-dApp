@@ -35,26 +35,26 @@
 /* end fonts */
 
 body {
-    --light-pink: #F9F5F7;
+    --light-pink: #f6fffb;
     --background-image: url(/img/bglight.svg);
     --text-color: #222;
     --box-bg: #fff;
     --white: #fff;
     --radio: #fde6e8;
-    --solid-btn-bg: #E30613;
-    --solid-btn-hover-bg: #A00000;
+    --solid-btn-bg: #22B573;
+    --solid-btn-hover-bg: #1e9c63;
     /* --light-blue: rgb(69, 203, 254); */
     --light-blue: var(--text-color);
     --stats-grey: rgb(121, 121, 121);
     --box-border: rgba(0,0,0,.05);
     --box-shadow: rgba(0,0,0,.06);
-    --button-red: rgb(255, 0, 0);
+    --button-red: #22B573;
     --form-control-bg: #f4f4f4;
     --form-control-text: var(--stats-grey);
     --footer-text: rgba(0,0,0,.7);
 }
 .l-light-btn {
-    --solid-btn-bg: #F3E3E4;
+    --solid-btn-bg: #22B573;
     color: var(--text-color);
 }
 .l-light-btn:hover,
@@ -72,8 +72,8 @@ body.dark {
     --radio: #171318;
 
     --white: #fff;
-    --solid-btn-bg: #FF656E;
-    --solid-btn-hover-bg: #ff4d58;
+    --solid-btn-bg: #22B573;
+    --solid-btn-hover-bg: #1e9c63;
     --light-blue: var(--white);
     --stats-grey: rgba(255,255,255,.3);
     --box-border: rgba(0,0,0,.05);
@@ -269,8 +269,8 @@ strong {
 }
 
 .iivcTi:hover, .iivcTi:focus {
-    border: 1px solid var(--light-pink);
-    background: var(--button-red);
+    border: 1px solid var(--green);
+    background: var(--button-green);
     color: var(--white);
 }
 

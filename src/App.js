@@ -13,7 +13,8 @@ import VaultListDai from "./components/staking-list-dai"
 
 import Header from './components/header'
 import Footer from './components/footer'
-
+//the defintion is in setup.js 
+/*
 const VaultWETH_3days = initVault({ vault: window.vault_weth_3days, token: window.token_weth, platformTokenApyPercent: 2.5, UNDERLYING_DECIMALS: 18, UNDERLYING_SYMBOL: 'WETH', expiration_time: '28 April 2022' })
 const VaultWETH_30days = initVault({ vault: window.vault_weth_30days, token: window.token_weth, platformTokenApyPercent: 7.5, UNDERLYING_DECIMALS: 18, UNDERLYING_SYMBOL: 'WETH', expiration_time: '28 April 2022' })
 const VaultWETH_60days = initVault({ vault: window.vault_weth_60days, token: window.token_weth, platformTokenApyPercent: 10, UNDERLYING_DECIMALS: 18, UNDERLYING_SYMBOL: 'WETH', expiration_time: '28 April 2022' })
@@ -38,6 +39,10 @@ const VaultDAI_3days = initVault({ vault: window.vault_dai_3days, token: window.
 const VaultDAI_30days = initVault({ vault: window.vault_dai_30days, token: window.token_dai, platformTokenApyPercent: 9, UNDERLYING_DECIMALS: 18, UNDERLYING_SYMBOL: 'DAI', expiration_time: '28 April 2022'})
 const VaultDAI_60days = initVault({ vault: window.vault_dai_60days, token: window.token_dai, platformTokenApyPercent: 13, UNDERLYING_DECIMALS: 18, UNDERLYING_SYMBOL: 'DAI', expiration_time: '28 April 2022'})
 const VaultDAI_90days = initVault({ vault: window.vault_dai_90days, token: window.token_dai, platformTokenApyPercent: 16, UNDERLYING_DECIMALS: 18, UNDERLYING_SYMBOL: 'DAI', expiration_time: '28 April 2022'})
+*/
+
+const VaultUSDC_AAVE= initVault({ vault: window.vault_usdc_90days, token: window.token_usdc, platformTokenApyPercent: 18, UNDERLYING_DECIMALS: 6, UNDERLYING_SYMBOL: 'USDC', expiration_time: '28 April 2022' })
+
 
 const Modal = ({ handleClose, show, children }) => {
     const showHideClassName = show ? "modal display-block" : "modal display-none";
@@ -120,10 +125,12 @@ class App extends React.Component {
         }
       }
       this.setState({is_wallet_connected, coinbase: await window.web3.eth.getCoinbase(), referrer})
+      console.log(referrer)
       
     } catch (e) {
       window.alertify.error(String(e))
     }
+    
   }
 
 render() {
@@ -208,9 +215,10 @@ render() {
     <div className="App">
       <Header darkTheme={this.state.darkTheme} toggleTheme={this.toggleTheme} />
       <div className='App-container'>
-
+      <Route exact path='/' render={props => <VaultUSDC_AAVE {...props} />} />
+        {/*
         <Route exact path='/' render={props => <VaultList {...props} />} />
-
+        
         <Route exact path='/vault-list-eth' render={props => <VaultListEth {...props} />} />
         <Route exact path='/vault-list-wbtc' render={props => <VaultListWbtc {...props} />} />
         <Route exact path='/vault-list-usdt' render={props => <VaultListUsdt {...props} />} />
@@ -240,7 +248,9 @@ render() {
         <Route exact path='/vault-dai-3days' render={props => <VaultDAI_3days {...props} />} />
         <Route exact path='/vault-dai-30days' render={props => <VaultDAI_30days {...props} />} />
         <Route exact path='/vault-dai-60days' render={props => <VaultDAI_60days {...props} />} />
-        <Route exact path='/vault-dai-90days' render={props => <VaultDAI_90days {...props} />} />
+        <Route exact path='/vault-dai-90days' render={props => <VaultDAI_90days {...props} />} />*/
+}
+
       </div>
       <Footer />
     </div>

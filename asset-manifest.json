@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/vault-dapp/static/js/main.c4ef9b6c.chunk.js",
+    "main.js.map": "/vault-dapp/static/js/main.c4ef9b6c.chunk.js.map",
+    "runtime-main.js": "/vault-dapp/static/js/runtime-main.6e76a654.js",
+    "runtime-main.js.map": "/vault-dapp/static/js/runtime-main.6e76a654.js.map",
+    "static/js/2.7c483554.chunk.js": "/vault-dapp/static/js/2.7c483554.chunk.js",
+    "static/js/2.7c483554.chunk.js.map": "/vault-dapp/static/js/2.7c483554.chunk.js.map",
+    "index.html": "/vault-dapp/index.html",
+    "precache-manifest.8c0369061c451e7078526fa63116f87b.js": "/vault-dapp/precache-manifest.8c0369061c451e7078526fa63116f87b.js",
+    "service-worker.js": "/vault-dapp/service-worker.js",
+    "static/js/2.7c483554.chunk.js.LICENSE.txt": "/vault-dapp/static/js/2.7c483554.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6e76a654.js",
+    "static/js/2.7c483554.chunk.js",
+    "static/js/main.c4ef9b6c.chunk.js"
+  ]
+}
